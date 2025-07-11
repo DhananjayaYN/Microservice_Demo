@@ -46,8 +46,4 @@ class User {
 }
 
 module.exports = User;
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 53e9e07c0ac7cdc760ac7655af7b4b8cc559fd6d
