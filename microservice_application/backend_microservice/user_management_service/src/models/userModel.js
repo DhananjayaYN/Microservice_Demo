@@ -3,7 +3,6 @@ const mysql = require('mysql2/promise');
 // Since we're using MySQL, we'll define the schema as a reference
 // The actual table creation is handled in index.js
 
-
 const UserSchema = {
   tableName: 'users',
   columns: {
@@ -17,8 +16,6 @@ const UserSchema = {
     updatedAt: 'updated_at'
   }
 };
-
-
 
 // Function to get a database connection
 async function getConnection() {
@@ -36,7 +33,3 @@ module.exports = {
   UserSchema,
   getConnection
 };
-
-
-
-
